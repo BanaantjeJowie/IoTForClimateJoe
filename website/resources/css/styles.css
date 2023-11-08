@@ -1,0 +1,305 @@
+body{
+    width: 90%;
+    margin: auto;
+    padding-top: 1%;
+
+}
+
+header{
+    height: 400px;
+    width: auto;
+    background-image: url("/11_Project1/Project1☺/resources/images/fresh-forest-banner.jpg");
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.slogan{
+    text-align: center;
+color: #F1FFFA;
+}
+
+.missionHead{
+    padding-left: 20px;
+    padding-top: 5px;
+    color: #F1FFFA;
+
+}
+
+.missionPar{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: #F1FFFA;
+}
+
+.founders{
+    padding-left: 20px;
+    padding-top: 5px;
+    color: #F1FFFA;
+}
+
+.headFounder{
+    padding-left: 20px;
+    color: #F1FFFA;
+    
+}
+
+.parFounder{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: #F1FFFA;
+}
+
+.hoofdkenrie{
+
+    max-height: 125px;
+
+}
+
+.hoofdkenriepic{
+    display: flex;
+    width: 100%;
+    
+}
+
+.hoofdJowiepic{
+    display: flex;
+    width: 100%;
+}
+
+.hoofdJowie{
+    max-height: 125px;
+}
+
+.hoofdJowiepic p{
+    flex-grow: 1;
+}
+
+.hoofdSimon{
+    max-height: 125px;
+}
+
+.hoofdSimonpic{
+    display: flex;
+    width: 100%;
+}
+
+img {
+    padding: 0.4rem;
+    margin: 0.4rem 0.8rem;
+    border-radius: 5px;
+    border: solid 2px aliceblue ;
+    user-select: none;
+  }
+   
+
+.hoofdkenriepic p{
+    flex-grow: 1;
+}
+
+.title{ 
+    text-align: center ;
+    padding-top: 200px;
+    color: rgb(255, 255, 255);
+}
+
+div {
+    height: auto;
+    width: 100%;
+    background-color: #568259;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #568259;
+    box-shadow: 0px 2px 4px rgba(167, 132, 132, 0.1);
+    
+}
+
+ul {
+    display: flex; 
+    justify-content: space-around; 
+    height: 30px;
+    align-items: center;
+    
+}
+
+li {
+    margin: 0 10px; 
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s; 
+}
+
+.active a {
+    font-weight: bold;
+    color: #fafafa;
+}
+
+li:hover a {
+    color: #ffffff;
+}
+
+
+.climateTitle{
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #F1FFFA;
+
+    
+}
+
+.climatePar{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: #F1FFFA;
+}
+
+.solutions{
+    margin-left: 20px;
+    color: #F1FFFA;
+}
+
+.how{
+    margin-left: 20px;
+
+
+}
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+#scroll-to-top {
+    display: block;
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:#464E47;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+#scroll-to-top:hover {
+    background-color: #464E47;
+
+}
+
+.contact-card {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px auto;
+    background-color:  #568259;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    width: 100%;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-info{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.contact-form {
+    background-color:  #568259;
+    border-left: solid #464E47;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.separator {
+    border-right: 2px solid  #568259;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.textarea{
+    padding-left: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    padding: 10px;
+}
+
+.contact-form button {
+    background-color: #464E47;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.footer{
+    height: 100%;
+    
+    
+}
+
+.copyrights{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #F1FFFA;
+    font-size: small;
+}
+
+.burningplanet{
+    display: flex;
+    
+    max-height: 125PX;
+    max-width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.burningplanet p{
+    flex-grow: 1;
+}
+
+.vivesbrugge{
+    justify-content: center;
+    max-height: 300px;
+    place-items:center;
+}
